@@ -30,7 +30,7 @@ function checkImage(url) {
 
 checkUser = async()=> {
     var request = new XMLHttpRequest();
-    request.open("GET", 'http://127.0.0.1:8000/utils/', true);
+    request.open("GET", 'https://food-task-dj.herokuapp.com/utils/', true);
     request.send();
     request.onload = function() {
         status = request.status;
